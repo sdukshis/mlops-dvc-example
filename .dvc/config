@@ -1,0 +1,6 @@
+[core]
+    autostage = true
+    remote = otus-mlops
+['remote "otus-mlops"']
+    url = s3://otus-mlops/dvcstore
+    endpointurl = https://storage.yandexcloud.net
