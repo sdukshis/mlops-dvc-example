@@ -4,5 +4,3 @@
 ['remote "otus-mlops"']
     url = s3://otus-mlops/dvcstore
     endpointurl = https://storage.yandexcloud.net
-    access_key_id = YCAJEjCthgigePP2HYULJv7nL
-    secret_access_key = YCOWYry7-bfYceQyh_dvCPXwHLFyKlBoUJ79cs5l
