@@ -4,16 +4,16 @@ stages:
     cmd: python train.py
     deps:
     - path: data
-      md5: b8f4d5a78e55e88906d5f4aeaf43802e.dir
-      size: 41149064
-      nfiles: 1800
+      md5: 21060888834f7220846d1c6f6c04e649.dir
+      size: 64128504
+      nfiles: 2800
     - path: train.py
-      md5: b4389e42ff0a8b8bb077757b3b2de0e3
-      size: 4233
+      md5: 3b32a04d93f923b903ec97458154c05d
+      size: 4309
     outs:
     - path: metrics.csv
-      md5: 1702c07ffa191bef714c794097c86275
-      size: 820
+      md5: 6e51791e43ff067633a8f7533e76e2e5
+      size: 835
     - path: model.h5
-      md5: 5eedebf3bee740a7a1973ca891d40f5d
-      size: 8406200
+      md5: 750a5d8df8981c4cd348a91d82ea696a
+      size: 8540840
