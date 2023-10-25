@@ -117,6 +117,8 @@ def train_top_model():
     model.add(Dropout(0.5))
     model.add(Dense(128, activation='relu'))  
     model.add(Dropout(0.5))
+    model.add(Dense(64, activation='relu'))  
+    model.add(Dropout(0.5))
     model.add(Dense(1, activation='sigmoid'))
 
     model.compile(optimizer='rmsprop',
